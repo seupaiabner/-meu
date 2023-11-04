@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gravidade</title>
+    <link
+      rel="stylesheet"
+      href="estilo_gravidade.css"
+    />
+    <style>
+      .accordion-title {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .accordion-description {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        font-size: 1rem;
+       
+      }
+
+      .accordion-item {
+        margin-bottom: 30px;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked ~ .accordion-description {
+        max-height: 18vh; /* Ajuste este valor conforme necessário */
+    
+      
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="terra.html"
+            ><span class="icon"
+              ><ion-icon name="home-outline"></ion-icon></span
+            ><span class="text">home</span></a
+          >
+        </li>
+        <li>
+
+          <a href="contatos.html"
+            ><span class="icon"
+              ><ion-icon name="logo-whatsapp"></ion-icon></span
+            ><span class="text">contatos</span></a
+          >
+        </li>
+        <li>
+          <a href="força.html"><span class="icon"><ion-icon name="arrow-up-outline"></ion-icon></span><span class="text">força</span></a>
+        </li>
+        <li>
+          <a href="peso.html"
+            ><span class="icon"
+              ><ion-icon name="barbell-outline"></ion-icon></span
+            ><span class="text">peso</span></a
+          >
+        </li>
+        
+        <li>
+          <a href="aplicaçoes.html"
+            ><span class="icon"
+              ><ion-icon name="color-wand-outline"></ion-icon></span
+            ><span class="text"></span>aplicaçoes</a
+          >
+        </li>
+        <li>
+          <a href="FONTES.html"
+            ><span class="icon"
+              ><ion-icon name="search-circle-outline"></ion-icon></span
+            ><span class="text">fontes</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="terra"></div>
+      <div class="corpo-celeste"></div>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>O conceito de gravidade</h1>
+        <div class="intro-conteudo">
+          <ul class="accordion-list">
+            <li class="accordion-item">
+              <label class="accordion-title" for="desc1"
+                ><h3>Introdução à Gravidade</h3></label
+              >
+              <input type="checkbox" id="desc1" />
+             <p class="accordion-description">
+                A
+                <a href="https://pt.wikipedia.org/wiki/Gravidade">gravidade </a> mantém <a href="https://pt.wikipedia.org/wiki/Planeta">planetas</a> em 
+<a href="https://pt.wikipedia.org/wiki/%C3%93rbita">órbita</a> no universo devido à atração entre objetos com massa.
+                
+               
+              </p>
+            </li>
+            <li class="accordion-item">
+              <label class="accordion-title" for="desc2">
+                <h3>A Lei da Gravitação Universal de Newton</h3></label
+              >
+              <input type="checkbox" id="desc2" />
+              <p class="accordion-description">
+                A Lei da
+                <a
+                  href="https://pt.wikipedia.org/wiki/Lei_da_gravita%C3%A7%C3%A3o_universal"
+                  >Gravitação Universal</a
+                >, de
+                <a href="https://pt.wikipedia.org/wiki/Isaac_Newton"
+                  >Isaac Newton</a
+                >, relaciona massas e <a href="https://pt.wikipedia.org/wiki/Dist%C3%A2ncia"
+                  >distância</a
+                > na força gravitacional.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <label class="accordion-title" for="desc3">
+                <h3>A Atração de Massa</h3></label
+              >
+              <input type="checkbox" id="desc3" />
+              <p class="accordion-description">
+                
+A <a href="https://pt.wikipedia.org/wiki/Gravidade">força gravitacional </a> aumenta com a<a href="https://pt.wikipedia.org/wiki/Massa"> massa </a> dos objetos envolvidos.
+             
+              </p>
+            </li>
+          </ul>
+          <img
+            src="A lei da gravitação de Newton.png"
+            alt="imagem"
+          />
+        </div>
+      </div>
+      <div class="center">
+        <label class="accordion-title" for="desc4"
+          ><h2>Força Peso e Gravidade:</h2></label
+        >
+        <input type="checkbox" id="desc4" />
+        <p class="accordion-description">
+          A <a href="https://pt.wikipedia.org/wiki/Peso">força peso</a> é a
+          força exercida pela gravidade sobre um objeto com massa. Ela é o
+          resultado da interação entre a massa desse objeto e a gravidade
+          presente no local em que ele se encontra. A <a href="https://pt.wikipedia.org/wiki/Magnitude_(astronomia)">magnitude</a> da força peso é
+          dada pela fórmula:
+        </p>
+        <br />
+        p = m g
+        <div class="formula">
+          <br />
+
+          <ul>
+            <li><h3>( P ) é a força peso</h3></li>
+            <li><h3>( m ) é a massa do objeto</h3></li>
+            <li><h3>( g ) é a aceleração devido à gravidade</h3></li>
+          </ul>
+          <img
+            src="https://fsd.kopilkaurokov.ru/up/html/2017/01/26/k_588a27137baa9/img_user_file_588a27140a44f_5.jpg"
+            alt="formula"
+          />.
+        </div>
+        <p class="accordion-description">
+          A aceleração devida à
+          <a href="https://pt.wikipedia.org/wiki/Gravidade">gravidade</a> ( g )
+          é uma constante que varia dependendo da localização na Terra ou em
+          outros corpos celestes. Na superfície da
+          <a href="https://pt.wikipedia.org/wiki/Terra">Terra</a>, ( g ) tem um
+          valor médio de cerca de 9,81 m/s².
+        </p>
+        <br />
+        <p></p>
+      </div>
+
+      <div class="final">
+        <h2>Relação entre Gravidade e Força Peso:</h2>
+        <div class="final-conteudo">
+          <ul>
+            <li>
+              <label for="desc5" class="accordion-title" 
+                ><h3>A Órbita e os Movimentos Celestes</h3></label
+              >
+              <input type="checkbox" id="desc5" />
+              <p class="accordion-description">
+                A  <a href="https://pt.wikipedia.org/wiki/Gravidade">gravidade</a> mantém os objetos em órbita ao redor de corpos
+                massivos, como planetas orbitando estrelas. Os movimentos
+                complexos dos  corpos celestes são
+                determinados pelas interações gravitacionais entre eles.
+              </p>
+            </li>
+            <li>
+              <label class="accordion-title" for="desc6">
+              <h3>Variação da Gravidade em Diferentes Locais</h3></label>
+              <input type="checkbox" id="desc6" />
+              <p class="accordion-description">
+                A  <a href="https://pt.wikipedia.org/wiki/Acelera%C3%A7%C3%A3o">aceleração</a> devido à gravidade varia dependendo do local 
+                 e em outros corpos celestes. Corpos celestes com massas
+                maiores têm uma gravidade mais forte, resultando em uma
+                aceleração de gravidade maior.
+              </p>
+            </li>
+            <li>
+              <label class="accordion-title" for="desc7">
+              <h3>A Curvatura do Espaço-Tempo de Einstein</h3></label>
+              <input type="checkbox" id="desc7" />
+              <p class="accordion-description">
+                <a href="https://pt.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</a> revolucionou nossa compreensão da gravidade com
+                sua  <a href="https://pt.wikipedia.org/wiki/Teoria_da_relatividade">Teoria da Relatividade Geral</a>. De acordo com essa teoria, a
+                gravidade é uma curvatura no  <a href="https://pt.wikipedia.org/wiki/Espa%C3%A7o-tempo">espaço-tempo</a> causada pela presença
+                de massa. Objetos em movimento seguem trajetórias curvas nesse
+                espaço curvado.
+                    <a href="https://www.youtube.com/shorts/q0ws04V6Bf0?feature=share">ver video</a>
+              </p>
+            </li>
+          </ul> 
+         
+           <img src="sir_isaac_newtom.jpg" alt="" />
+        </div>
+        
+      </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

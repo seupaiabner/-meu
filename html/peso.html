@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>peso</title>
+    <link rel="stylesheet" href="peso.css" />
+    <style>
+      .accordion-list {
+        list-style: none;
+      }
+      .accordion-title {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .accordion-description {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        font-size: 1.3rem;
+        max-width: 70vw;
+      }
+
+      .accordion-item {
+        margin-bottom: 30px;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked ~ .accordion-description {
+        max-height: 18vh; /* Ajuste este valor conforme necessário */
+        font-size: 1.3rem;
+      }
+    </style>
+  </head>
+  <body> 
+    <nav>
+      <ul>
+        <li>
+          <a href="terra.html"
+            ><span class="icon"
+              ><ion-icon name="home-outline"></ion-icon></span
+            ><span class="text">home</span></a
+          >
+        </li>
+        <li>
+          <a href="contatos.html"
+            ><span class="icon"
+              ><ion-icon name="logo-whatsapp"></ion-icon></span
+            ><span class="text">contatos</span></a
+          >
+        </li>
+        <li>
+          <a href="força.html"><span class="icon"><ion-icon name="arrow-up-outline"></ion-icon></span><span class="text">força</span></a>
+        </li>
+      
+        <li>
+          <a href="gravidade.html"
+            ><span class="icon"
+              ><ion-icon name="planet-outline"></ion-icon></span
+            ><span class="text">gravidade</span></a
+          >
+        </li>
+        <li>
+          <a href="aplicaçoes.html"
+            ><span class="icon"
+              ><ion-icon name="color-wand-outline"></ion-icon></span
+            ><span class="text"></span>aplicaçoes</a
+          >
+        </li>
+        <li>
+          <a href="FONTES.html"
+            ><span class="icon"
+              ><ion-icon name="search-circle-outline"></ion-icon></span
+            ><span class="text">fontes</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header> <label for="desc0">
+      <h1>O Conceito de Peso na Física</h1></label>
+      <input type="checkbox" id="desc0">
+      <p class="accordion-description">
+        O peso é uma das noções fundamentais da física que descreve a força de
+        atração gravitacional exercida sobre um objeto devido à presença de uma
+        massa, como a Terra ou qualquer outro corpo celeste. Neste texto, vamos
+        explorar o conceito de peso e seus aspectos essenciais, dividindo-o em
+        tópicos claros.
+      </p>
+    </header>
+    <main>
+      <ul class="accordion-list">
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc1">
+            <h2>Definição do Peso</h2></label
+          >
+          <input type="checkbox" id="desc1" />
+          <p class="accordion-description">
+            - O peso é a força que um objeto experimenta devido à atração
+            gravitacional de outro corpo com massa. - O peso é uma grandeza
+            vetorial, caracterizada por sua magnitude (intensidade), direção e
+            sentido.
+          </p>
+        </li>
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc2">
+            <h2>Fórmula do Peso</h2></label
+          >
+          <input type="checkbox" id="desc2" />
+          <p class="accordion-description">
+             A fórmula para calcular o peso de um objeto é (P = m g), onde: (
+            P ) representa o peso do objeto, ( m ) é a massa do objeto, ( g
+            ) é a aceleração devido à gravidade no local.
+          </p>
+        </li>
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc3">
+            <h2>Características do Peso</h2></label
+          >
+          <input type="checkbox" id="desc3" />
+          <p class="accordion-description">
+             O peso é diretamente proporcional à massa do objeto. Quanto maior
+            a massa, maior será o <a href="https://pt.wikipedia.org/wiki/Peso"> peso</a>. A aceleração devido à <a href="https://pt.wikipedia.org/wiki/Gravidade"> gravidade</a> ( g )
+            varia de acordo com o local na Terra ou em outros corpos celestes. -
+            A unidade de medida do peso é o    <a href="https://pt.wikipedia.org/wiki/Newton_(unidade)">Newton</a> (N).
+          </p>
+        </li>
+
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc4">
+            <h2>Diferença entre Massa e Peso</h2></label
+          >
+          <input type="checkbox" id="desc4" />
+          <p class="accordion-description">
+             A <a href="https://pt.wikipedia.org/wiki/Massa"> massa</a> de um objeto é uma medida da quantidade de matéria que ele
+            contém, enquanto o peso é a medida da força de atração gravitacional
+            exercida sobre ele.  A massa é uma <a href="https://pt.wikipedia.org/wiki/Grandeza_escalar">grandeza escalar</a>  (sem direção),
+            enquanto o peso é uma grandeza vetorial (com direção).
+          </p>
+        </li>
+
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc5"
+            ><h2>Influência da Gravidade na Terra e em Outros Corpos</h2>
+          </label>
+          <input type="checkbox" id="desc5" />
+          <p class="accordion-description">
+             O peso de um objeto varia de acordo com a força gravitacional no
+            local. Em <a href="https://pt.wikipedia.org/wiki/Objeto_astron%C3%B4mico"> corpos celestes</a> com massas diferentes da  <a href="https://pt.wikipedia.org/wiki/Terra">Terra</a>, como a
+            <a href="https://pt.wikipedia.org/wiki/Lua">Lua</a> ou <a href="
+            https://pt.wikipedia.org/wiki/Marte_(planeta)"> Marte</a>, o peso de um objeto seria diferente devido às
+            diferentes acelerações de gravidade.
+          </p>
+        </li>
+
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc6">
+            <h2>Efeito da Altitude no Peso</h2></label
+          >
+          <input type="checkbox" id="desc6" />
+          <p class="accordion-description">
+             À medida que a <a href="https://pt.wikipedia.org/wiki/Altitude">altitude</a> aumenta acima da superfície da Terra, a
+             <a href="https://pt.wikipedia.org/wiki/Acelera%C3%A7%C3%A3o">aceleração</a> devido à gravidade diminui ligeiramente.  Isso significa
+            que o peso de um objeto será ligeiramente menor em altitudes
+            elevadas em comparação com o nível do solo.
+          </p>
+        </li>
+
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc7"
+            ><h2>Importância do Conceito de Peso</h2>
+          </label>
+          <input type="checkbox" id="desc7" />
+          <p class="accordion-description">
+             O conceito de peso é crucial na <a href="https://pt.wikipedia.org/wiki/Mec%C3%A2nica">mecânica</a>,<a href="https://pt.wikipedia.org/wiki/Engenharia">
+              engenharia</a> e diversas
+            áreas da física. Ele é a base para compreender como os objetos
+            caem, interagem com superfícies e experimentam forças quando
+            sujeitos à gravidade.
+          </p>
+        </li>
+
+        <li class="accordion-item">
+          <label class="accordion-title" for="desc8"> <h2>Conclusão</h2></label>
+          <input type="checkbox" id="desc8" />
+          <p class="accordion-description">
+            O peso é uma medida da  <a href="https://pt.wikipedia.org/wiki/Gravidade">força gravitacional</a> que age sobre um objeto
+            devido à presença de  <a href="https://pt.wikipedia.org/wiki/Massa">massa</a>.  É determinado pela massa do objeto e
+            pela  <a href="https://pt.wikipedia.org/wiki/Acelera%C3%A7%C3%A3o">aceleração </a>devido à gravidade no local. Compreender o
+            conceito de peso é essencial para a compreensão do movimento,
+            equilíbrio e interações de objetos no nosso mundo.
+          </p>
+        </li>
+      </ul>
+      <img src="weight-hanging-solid (1).svg" />
+    </main>
+    <div class="u">
+      <div class="calcularPeso">
+        <h1>Calculadora de Peso</h1>
+        <p>Informe a massa (em kg) e a aceleração da gravidade (em m/s²):</p>
+        <form onsubmit="calcularPeso(); return false;">
+          <div class="massa">
+          <label for="massa"><h3>Massa :</h3></label>
+          <div class="input-box">
+            <i class="fa-solid fa-earth-americas"></i>
+            <input
+              type="number"
+              id="massa"
+              step="0.01"
+              placeholder="Informe a massa"
+            />  
+            (kg)
+          </div>
+          </div>
+          <br />
+
+          <label for="aceleracao"><h3>Aceleração da Gravidade :</h3></label>
+          <div class="input-field"> 
+          <input
+            type="number"
+            id="aceleracao"
+            step="0.01"
+            placeholder="Informe a aceleração da gravidade"/>
+          (m/s²)</div>
+          <br />
+       
+        <button onclick="calcularPeso()">Calcular Peso</button>
+
+        <p>O resultado é: <span id="resultado"></span> Newtons (N)</p>
+      </form>
+      </div>
+      <img src="Weights-amico.svg" alt="" />
+    </div>
+
+    <script>
+      function calcularPeso() {
+        // Obtém os valores informados pelo usuário
+        const massa = parseFloat(document.getElementById("massa").value);
+        const aceleracao = parseFloat(
+          document.getElementById("aceleracao").value
+        );
+
+        // Verifica se ambos os valores são válidos
+        if (!isNaN(massa) && !isNaN(aceleracao)) {
+          // Calcula o peso (P = m * g)
+          const peso = massa * aceleracao;
+
+          // Exibe o resultado
+          document.getElementById("resultado").textContent =
+            peso.toFixed(2) + " N";
+        } else {
+          alert(
+            "Por favor, insira valores válidos para massa e aceleração da gravidade."
+          );
+        }
+      }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

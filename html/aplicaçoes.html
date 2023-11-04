@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aplicaçoes</title>
+    <link rel="stylesheet" href="aplicaçoes.css" />
+    <style>
+      .accordion-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .accordion-item {
+        margin: 20px;
+      }
+      .accordion-title {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .accordion-description {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        font-size: 1.2rem;
+        width: 50vw;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked ~ .accordion-description {
+        max-height: 16vh;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="terra.html"
+            ><span class="icon"><ion-icon name="home-outline"></ion-icon></span
+            ><span class="text"></span>home</a
+          >
+        </li>
+        <li>
+          <a href="contatos.html"
+            ><span class="icon"><ion-icon name="logo-whatsapp"></ion-icon></span
+            ><span class="text">contatos</span></a
+          >
+        </li>
+        <li>
+          <a href="força.html"
+            ><span class="icon"
+              ><ion-icon name="arrow-up-outline"></ion-icon></span
+            ><span class="text">força</span></a
+          >
+        </li>
+        <li>
+          <a href="peso.html"
+            ><span class="icon"
+              ><ion-icon name="barbell-outline"></ion-icon></span
+            ><span class="text">peso</span></a
+          >
+        </li>
+        <li>
+          <a href="gravidade.html"
+            ><span class="icon"
+              ><ion-icon name="planet-outline"></ion-icon></span
+            ><span class="text">gravidade</span></a
+          >
+        </li>
+
+        <li>
+          <a href="FONTES.html"
+            ><span class="icon"
+              ><ion-icon name="search-circle-outline"></ion-icon></span
+            ><span class="text">fontes</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>aplicaçoes</h1>
+      <div class="conteudo">
+        <ol class="accordion-list">
+          <li class="accordion-item">
+            <label for="desc1" class="accordion-title"
+              ><h2>Elevadores</h2></label
+            >
+            <input type="checkbox" id="desc1" class="accordion-checkbox" />
+            <p class="accordion-description">
+              <i class="fa-solid fa-elevator"></i>
+              Elevadores aplicam uma força contrária à força peso dos
+              passageiros e da cabine, permitindo seu movimento. Um motor gera
+              uma força ascendente ou descendente, garantindo que o elevador se
+              mova conforme desejado. O controle preciso dessas forças é
+              essencial para a segurança e o funcionamento adequado dos
+              elevadores.
+            </p>
+          </li>
+          <li class="accordion-item">
+            <label for="desc2" class="accordion-title"
+              ><h2>
+                <ion-icon name="airplane-outline"></ion-icon>Aviação
+              </h2></label
+            >
+            <input type="checkbox" id="desc2" class="accordion-checkbox" />
+            <p class="accordion-description">
+              Na aviação, a força peso e a gravidade são fundamentais. No solo,
+              o avião suporta toda a força peso. Ao decolar, as asas geram uma
+              força de sustentação igual à força peso, mantendo o avião no ar.
+              Controlar essa relação é crucial para o voo.
+            </p>
+          </li>
+          <li class="accordion-item">
+            <label for="desc3" class="accordion-title">
+              <h2>Engenharia de Pontes</h2></label
+            >
+            <input type="checkbox" id="desc3" class="accordion-checkbox" />
+            <p class="accordion-description">
+              Engenheiros de pontes consideram a força peso das cargas, como
+              veículos e vento. A estrutura deve distribuir essas forças para
+              evitar falhas, exigindo cálculos complexos para escolher materiais
+              e dimensionar pilares, vigas e fundações adequadamente.
+            </p>
+          </li>
+          <li class="accordion-item">
+            <label for="desc4" class="accordion-title">
+              <h2>
+                <ion-icon name="planet-outline"></ion-icon>Física Espacial
+              </h2></label
+            >
+            <input type="checkbox" id="desc4" class="accordion-checkbox" />
+            <p class="accordion-description">
+              Em missões espaciais, a gravidade varia conforme o corpo celeste.
+              Na Lua, por exemplo, é cerca de 1/6 da Terra. Engenheiros adaptam
+              espaçonaves para diferentes ambientes gravitacionais e calculam
+              trajetórias para superar influências gravitacionais, garantindo o
+              sucesso da missão.
+            </p>
+          </li>
+        </ol>
+        <img src="mathematics-animate.svg" alt="" />
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

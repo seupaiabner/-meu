@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+  overflow: hidden;
+}
+.sistema-solar {
+    position: relative;
+    width: 40em;
+    height: 40em;
+}
+
+
+.sol {
+    position:absolute;
+    width: 10em;
+    height: 10em;
+    top: 15em;
+    left: 15em;
+    border-radius: 50%;
+    background-color: #ffdb00;
+    box-shadow: 0 0 50px #ffdb00;
+    animation: giroInfinito  10s linear infinite;
+}
+
+.planeta {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.mercurio {
+    top: 5em;
+    left: 5em;
+    width: 30em;
+    height: 30em;
+    margin-left: -10px;
+    animation: orbitaMercurio 4s linear infinite;
+}
+
+.venus {
+    top: 190px;
+    left: 50%;
+    margin-left: -10px;
+    animation: orbitaVenus 6s linear infinite;
+}
+
+/* Adicione mais estilos para os outros planetas */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* styles.css */
+/* styles.css */
+@keyframes giroInfinito {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes orbitaMercurio {
+    0% {
+        transform: rotate(0deg) translateX(120px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(120px) rotate(360deg);
+    }
+}
+
+@keyframes orbitaVenus {
+    0% {
+        transform: rotate(0deg) translateX(180px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(180px) rotate(360deg);
+    }
+}
+
+
+
+/* Adicione mais keyframes para os outros planetas */
+
+
+     
+    

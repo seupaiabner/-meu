@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>força</title>
+  <link rel="stylesheet" href="estilo_força.css">
+  <style>
+    /* Seus estilos gerais aqui */
+    /* Seus estilos gerais aqui */
+    .accordion-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .accordion-item {
+      margin-bottom: 20px;
+    }
+
+    .accordion-title {
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .accordion-description {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-in-out;
+      font-size: 1rem;
+    }
+
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked~.accordion-description {
+      max-height: 12vh;
+      /* Ajuste este valor conforme necessário */
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="terra.html"
+          ><span class="icon"
+            ><ion-icon name="home-outline"></ion-icon></span
+          ><span class="text"></span>home</a
+        >
+      </li>
+      <li>
+        <a href="contatos.html"
+          ><span class="icon"
+            ><ion-icon name="logo-whatsapp"></ion-icon></span
+          ><span class="text">contatos</span></a
+        >
+      </li>
+      
+      <li>
+        <a href="peso.html"
+          ><span class="icon"
+            ><ion-icon name="barbell-outline"></ion-icon></span
+          ><span class="text">peso</span></a
+        >
+      </li>
+      <li>
+        <a href="gravidade.html"
+          ><span class="icon"
+            ><ion-icon name="planet-outline"></ion-icon></span
+          ><span class="text">gravidade</span></a
+        >
+      </li>
+      <li>
+        <a href="aplicaçoes.html"><span class="icon"><ion-icon name="color-wand-outline"></ion-icon></span><span class="text">aplicaçoes</span></a>
+      </li>
+      
+      <li>
+        <a href="FONTES.html"
+          ><span class="icon"
+            ><ion-icon name="search-circle-outline"></ion-icon></span
+          ><span class="text">fontes</span></a
+        >
+      </li>
+    </ul>
+  </nav>
+  <header>
+    <a href="força"></a>
+    <div class="left-side">
+      <h1>Força e Suas Variantes:</h1>
+      <hr />
+      <p>
+        A força é uma das fundamentais grandezas físicas que governam o
+        <strong> dos objetos no universo.</strong> <br />
+        Ela é central para a compreensão da dinâmica dos corpos e desempenha
+        um papel crucial em diversas áreas da física, da mecânica clássica à
+        física quântica. <br />
+        Neste texto, exploraremos a natureza da força, suas diferentes
+        variações e, especialmente, a força vetorial.
+      </p>
+    </div>
+    <div class="rigth-side">
+      <h1> Definição de Força:</h1>
+      <hr />
+      <p>
+        A força é uma grandeza que descreve a interação entre dois objetos,
+        causando mudanças no movimento ou na forma deles. <br />
+        Ela é uma quantidade vetorial, o que significa que possui magnitude
+        (intensidade) e direção. <br />
+        A unidade padrão de força no Sistema Internacional é o Newton (N).
+      </p>
+    </div>
+  </header>
+  <main>
+    <div class="upper-side">
+      <h2>Características da Força:</h2>
+      <hr />
+      <div class="upper-side-conteudo">
+        <ul class="accordion-list">
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc1">
+              <h3>Magnitude</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc1">
+            <p class="accordion-description" id="desc1">
+              Refere-se à <a href="https://pt.wikipedia.org/wiki/Intensidade_(f%C3%ADsica)">intensidade</a>
+              da força e é medida em <a href="https://pt.wikipedia.org/wiki/Newton_(unidade)">Newtons </a>(N).</p>
+          </li>
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc2">
+              <h3>Direção</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc2">
+            <p class="accordion-description">
+              Indica para onde a força está atuando.É expressa em termos de um
+              ângulo ou em relação a algum sistema de coordenadas.</p>
+          </li>
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc3">
+              <h3>Sentido</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc3">
+            <p class="accordion-description">
+              Refere-se à orientação da força, seja para cima, para baixo, para
+              a esquerda, para a direita, etc.
+            </p>
+          </li>
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc4">
+              <h3>Ponto de Aplicação</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc4">
+            <p class="accordion-description">
+              Indica onde a força é aplicada no objeto.</p>
+          </li>
+        </ul>
+        <img src="xandao.jpg" class="xandao"/>
+      </div>
+    </div>
+    <div class="lower-side">
+      <h2>Variantes da Força:</h2>
+      <hr />
+      <div class="lower-side-conteudo">
+        <ol class="accordion-list">
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc5">
+              <h3>Força Gravitacional</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc5">
+            <p class="accordion-description">
+              É a força de atração entre dois objetos com massa. Ela é descrita
+              pela <a href="https://pt.wikipedia.org/wiki/Lei_da_gravita%C3%A7%C3%A3o_universal">Lei da Gravitação
+                Universal</a> de Newton e varia diretamente com
+              as massas dos objetos e inversamente com o quadrado da
+              <a href="https://pt.wikipedia.org/wiki/Dist%C3%A2ncia">distância</a>
+              entre eles.
+            </p>
+          </li>
+
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc6">
+              <h3>Força Normal</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc6">
+            <p class="accordion-description">
+              É a força exercida por uma superfície em contato com um objeto,
+              <a href="https://pt.wikipedia.org/wiki/Perpendicularidade"> perpendicular</a> à superfície.
+              Ela equilibra a força da gravidade quando um objeto está sobre uma
+              superfície.
+            </p>
+          </li>
+
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc7">
+              <h3>Força de Tração</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc7">
+            <p class="accordion-description">
+              É a força exercida por uma <a href="https://pt.wikipedia.org/wiki/Corda">corda</a>, cabo ou material similar quando
+              está sendo esticado.</p>
+          </li>
+
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc8">
+              <h3>Força de Atrito</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc8">
+            <p class="accordion-description">
+              É a força que atua em sentido oposto ao movimento relativo entre
+              duas superfícies em contato.
+              Ela pode ser <a href="https://pt.wikipedia.org/wiki/Est%C3%A1tica">estática</a> ( repouso) ou
+              <a href="https://pt.wikipedia.org/wiki/Cin%C3%A9tica_(f%C3%ADsica)">cinética</a> ( movimento).</p>
+          </li>
+
+          <li class="accordion-item">
+            <label class="accordion-title" for="desc9">
+              <h3>Força Elástica</h3>
+            </label>
+            <input type="checkbox" class="accordion-checkbox" id="desc9">
+            <p class="accordion-description">
+              É a força exercida por uma <a href="https://pt.wikipedia.org/wiki/Mola"> mola</a> ou material elástico
+              quando é
+              deformado e tenta voltar à sua forma original.</p>
+          </li>
+          <li>
+            <label class="accordion-title" for="desc10">
+              <h3>Força Vetorial:</h3> </label>
+              <input type="checkbox" class="accordion-checkbox" id="desc10">
+              <p class="accordion-description"> 
+                Diferente de <a href="https://pt.wikipedia.org/wiki/Grandeza_escalar">grandezas escalares</a>, grandezas vetoriais consideram
+                dimensões tridimensionais.
+                Visualmente representada por setas, onde tamanho, direção e orientação denotam a força. A soma de forças
+                vetoriais é essencial
+                para prever comportamentos complexos de objetos.</p>
+          </li>
+        </ol>
+        <img src="terra_setas.svg.svg" alt="força" />
+      </div>
+    </div>
+
+    </div>
+  </main>
+  <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+
+</html>

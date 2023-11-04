@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gravidade</title>
+    <link
+      rel="stylesheet"
+      href="estilo_gravidade.css"
+    />
+    <style>
+      .accordion-title {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .accordion-description {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        font-size: 1rem;
+      }
+
+      .accordion-item {
+        margin-bottom: 30px;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked ~ .accordion-description {
+        max-height: 15vh; /* Ajuste este valor conforme necessário */
+        font-size: 1.05rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="terra"></div>
+      <div class="corpo-celeste"></div>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>O conceito de gravidade</h1>
+        <div class="intro-conteudo">
+          <ul class="accordion-list">
+            <li class="accordion-item">
+              <label class="accordion-title" for="desc1"
+                ><h3>Introdução à Gravidade</h3></label
+              >
+              <input type="checkbox" id="desc1" />
+              <p class="accordion-description">
+                A
+                <a href="https://pt.wikipedia.org/wiki/Gravidade">gravidade </a
+                >é uma força de atração que existe entre todos os objetos com
+                massa no universo. Ela é responsável pela manutenção dos corpos
+                celestes em
+                <a href="https://pt.wikipedia.org/wiki/%C3%93rbita">órbita</a>,
+                incluindo
+                <a href="https://pt.wikipedia.org/wiki/Planeta">planetas</a>,
+                estrelas e galáxias.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <label class="accordion-title" for="desc2">
+                <h3>A Lei da Gravitação Universal de Newton</h3></label
+              >
+              <input type="checkbox" id="desc2" />
+              <p class="accordion-description">
+                A Lei da
+                <a
+                  href="https://pt.wikipedia.org/wiki/Lei_da_gravita%C3%A7%C3%A3o_universal"
+                  >Gravitação Universal</a
+                >, formulada por
+                <a href="https://pt.wikipedia.org/wiki/Isaac_Newton"
+                  >Isaac Newton</a
+                >, é uma das teorias mais influentes na história da física. Essa
+                lei descreve como a força gravitacional entre duas massas é
+                diretamente proporcional ao produto de suas massas e
+                inversamente proporcional ao quadrado da
+                <a href="https://pt.wikipedia.org/wiki/Dist%C3%A2ncia"
+                  >distância</a
+                >
+                entre elas.
+              </p>
+            </li>
+            <li class="accordion-item">
+              <label class="accordion-title" for="desc3">
+                <h3>A Atração de Massa</h3></label
+              >
+              <input type="checkbox" id="desc3" />
+              <p class="accordion-description">
+                A gravidade é uma força de atração que aumenta à medida que a
+                massa dos objetos envolvidos aumenta. Quanto maior a
+                <a href="https://pt.wikipedia.org/wiki/Massa">massa</a> de um
+                objeto, maior é a <a href="https://pt.wikipedia.org/wiki/Gravidade">força gravitacional </a>que ele exerce.
+              </p>
+            </li>
+          </ul>
+          <img
+            src="C:\Users\joaoa\OneDrive\Documentos\estudos aleatorios\A lei da gravitação de Newton.png"
+            alt="imagem"
+          />
+        </div>
+      </div>
+      <div class="center">
+        <label class="accordion-title" for="desc4"
+          ><h2>Força Peso e Gravidade:</h2></label
+        >
+        <input type="checkbox" id="desc4" />
+        <p class="accordion-description">
+          A <a href="https://pt.wikipedia.org/wiki/Peso">força peso</a> é a
+          força exercida pela gravidade sobre um objeto com massa. Ela é o
+          resultado da interação entre a massa desse objeto e a gravidade
+          presente no local em que ele se encontra. A magnitude da força peso é
+          dada pela fórmula:
+        </p>
+        <br />
+        p = m g
+        <div class="formula">
+          <br />
+
+          <ul>
+            <li><h3>( p ) é a força peso</h3></li>
+            <li><h3>( m ) é a massa do objeto</h3></li>
+            <li><h3>( g ) é a aceleração devido à gravidade</h3></li>
+          </ul>
+          <img
+            src="https://fsd.kopilkaurokov.ru/up/html/2017/01/26/k_588a27137baa9/img_user_file_588a27140a44f_5.jpg"
+            alt="formula"
+          />.
+        </div>
+        <p class="accordion-description">
+          A aceleração devida à
+          <a href="https://pt.wikipedia.org/wiki/Gravidade">gravidade</a> ( g )
+          é uma constante que varia dependendo da localização na Terra ou em
+          outros corpos celestes. Na superfície da
+          <a href="https://pt.wikipedia.org/wiki/Terra">Terra</a>, ( g ) tem um
+          valor médio de cerca de 9,81 m/s².
+        </p>
+        <br />
+        <p></p>
+      </div>
+
+      <div class="final">
+        <h2>Relação entre Gravidade e Força Peso:</h2>
+        <div class="final-conteudo">
+          <ul>
+            <li>
+              <label for="desc5" class="accordion-title" 
+                ><h3>A Órbita e os Movimentos Celestes</h3></label
+              >
+              <input type="checkbox" id="desc5" />
+              <p class="accordion-description">
+                A  <a href="https://pt.wikipedia.org/wiki/Gravidade">gravidade</a> mantém os objetos em órbita ao redor de corpos
+                massivos, como planetas orbitando estrelas. Os movimentos
+                complexos dos planetas, luas e outros corpos celestes são
+                determinados pelas interações gravitacionais entre eles.
+              </p>
+            </li>
+            <li>
+              <label class="accordion-title" for="desc6">
+              <h3>Variação da Gravidade em Diferentes Locais</h3></label>
+              <input type="checkbox" id="desc6" />
+              <p class="accordion-description">
+                A  <a href="https://pt.wikipedia.org/wiki/Acelera%C3%A7%C3%A3o">aceleração</a> devido à gravidade varia dependendo do local na
+                Terra e em outros corpos celestes. Corpos celestes com massas
+                maiores têm uma gravidade mais forte, resultando em uma
+                aceleração de gravidade maior.
+              </p>
+            </li>
+            <li>
+              <label class="accordion-title" for="desc7">
+              <h3>A Curvatura do Espaço-Tempo de Einstein</h3></label>
+              <input type="checkbox" id="desc7" />
+              <p class="accordion-description">
+                <a href="https://pt.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</a> revolucionou nossa compreensão da gravidade com
+                sua  <a href="https://pt.wikipedia.org/wiki/Teoria_da_relatividade">Teoria da Relatividade Geral</a>. De acordo com essa teoria, a
+                gravidade é uma curvatura no  <a href="https://pt.wikipedia.org/wiki/Espa%C3%A7o-tempo">espaço-tempo</a> causada pela presença
+                de massa. Objetos em movimento seguem trajetórias curvas nesse
+                espaço curvado.
+              </p>
+            </li>
+          </ul> 
+          <a href="https://pt.wikipedia.org/wiki/Isaac_Newton">
+           <img src="C:\Users\joaoa\Downloads\sir_isaac_newtom.jpg" alt="" /></a>
+        </div>
+        <br />
+      </div>
+    </main>
+  </body>
+</html>

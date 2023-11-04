@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins:ital,wght@0,300;0,500;1,800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+body {
+   width: 100%;
+   height: 100%;
+   background-image: url("https://caras.uol.com.br/images/large/2020/01/29/itens-que-vao-te-deixar-ainda-mais-perto-do-universo-900121.jpg");
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+   font-family: Poppins;
+}
+.icon{
+   position: relative;
+   font-size: 1.5rem;
+   margin-right: 5px;
+   
+ }
+ nav{
+   justify-content: space-around;
+   align-items: center;
+   width: 100vw;
+   padding: 15px;
+   height: 5vh;
+   color: aliceblue;
+   text-decoration: none;
+   background-color:rgb(131, 123, 123);
+   box-shadow: 0px -5px 30px black inset ;
+ }
+  nav ul{
+   float: right;
+   margin-right : 30px;
+   list-style: none;
+   display: flex;
+
+ }
+ nav a{
+   text-decoration: none;
+   color: aliceblue;
+ }
+ nav li{
+   letter-spacing: 3px;
+   display: inline-block;
+   margin-left: 32px;
+   font-family: Poppins;
+ }
+
+h2 {
+   font-family: Poppins;
+}
+video{
+   width: 40vw;
+   height: 40vh;
+   border-radius: 20px;
+   
+}
+header {
+   background-color: rgb(16, 16, 52);
+   color: aliceblue;
+   margin: 30px;
+   width: 90vw;
+   height: 40vh;
+   box-shadow: 0px 10px 30px black inset;
+   padding: 30px;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.xandao{
+width:70vw;
+height:70vh;
+border-radius:20px;
+}
+
+ol {
+   align-items: center;
+  width:50vw;
+}
+
+header hr {
+   margin-bottom: 20px;
+}
+
+ main li {
+   margin-top: 20px;
+   width: 50vw;
+
+}
+
+p {
+   margin: 4px;
+}
+
+h3 {
+   width: 30vw;
+   font-size: 1.7rem;
+}
+
+h3:hover {
+   background-color: antiquewhite;
+   color: black;
+   border-radius: 20px;
+   text-align: center;
+   transition: 1s;
+}
+
+.left-side {
+   margin: 20px;
+   width: 50vw;
+}
+
+.left-side h1 {
+   margin-bottom: 17px;
+   font-family: Poppins;
+}
+
+.rigth-side {
+   margin-top: 90px;
+   width: 50vw;
+   height: 300px;
+}
+
+main {
+   height: 100vh;
+   width: 90vw;
+   margin: 20px;
+
+}
+
+.upper-side {
+   width: 90vw;
+   min-height: 80vh;
+   margin: 20px;
+   box-shadow: 0px 10px 20px black;
+   padding: 20px;
+   align-items: center;
+   background: orange;
+   color: aliceblue;
+   border-radius: 30px;
+   align-items: center;
+   justify-content: space-around;
+}
+.upper-side p{
+   max-width:40vw ;
+}
+
+.upper-side h2 {
+   width: 40vw;
+}
+
+.upper-side h3 {
+   width: 12vw;
+   font-size: 1.8rem;
+
+}
+
+.upper-side hr {
+   margin: 10px
+}
+
+.upper-side-conteudo {
+   display: flex;
+   justify-content: space-around;
+}
+
+.upper-side li {
+   margin: 10px;
+   width: 50vw;
+   font-weight: 700;
+   height: 15vh;
+   font-size: large;
+
+}
+
+.lower-side {
+   width: 90vw;
+   min-height: 88vh;
+   background: linear-gradient(120deg, purple, rgb(158, 40, 60));
+   margin: 10px;
+   padding: 20px;
+   box-shadow: 0px 10px 30px black;
+   border-radius: 20px;
+   color: aliceblue;
+   justify-content: space-around;
+}
+
+.lower-side a {
+   color: aqua;
+}
+
+.lower-side hr {
+   margin-bottom: 10px
+}
+
+.lower-side li {
+   margin: 20px;
+   width: 40vw;
+
+}
+
+.lower-side-conteudo {
+   display: flex;
+}
+
+.lower-side img {
+   width: 60vw;
+   height: 70vh;
+}

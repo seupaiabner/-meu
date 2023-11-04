@@ -1,0 +1,170 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins:ital,wght@0,300;0,500;1,800&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://image.freepik.com/fotos-gratis/estrelas-e-galaxia-espaco-sideral-ceu-noite-universo-preto_146539-811.jpg');
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+  }
+ .accordion-title h2{
+  font-size: 1.2rem;
+ }
+ .centro{
+  display: flex;
+  margin-top: 20px;
+  height: 80vh;
+  justify-content: space-around;
+  align-items: center;
+
+ }
+ img{
+  width: 50vw;
+  height: 50vh;
+  margin: 10px;
+ }
+    
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+    color: aliceblues;
+    font-size: 1.05rem;
+  }
+  .icon{
+    position: relative;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    
+  }
+  .titulo{
+    width: 40vw;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 40px;
+    box-shadow: 0 -5px 10px black inset;
+    text-align: center;
+    color:black;
+   background-color: rgb(121, 152, 179);
+  }
+  .titulo h1{
+     font-family: Poppins;
+     font-size: 3rem;
+     font-weight: 600;
+  }
+  .titulo h2{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    font-size: 2rem;
+    
+  }
+  nav{
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 15px;
+    height: 8vh;
+    color: aliceblue;
+    text-decoration: none;
+    background-color:rgb(131, 123, 123);
+    box-shadow: 0px -5px 30px black inset ;
+  }
+   nav ul{
+    float: right;
+    margin-right : 30px;
+    list-style: none;
+    display: flex;
+
+  }
+  nav a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  nav li{
+    letter-spacing: 3px;
+    display: inline-block;
+    margin-left: 32px;
+    font-family: Poppins;
+  }
+  
+  .terra {
+    width: 450px;
+    z-index: 1;
+    height: 400px;
+    border: 1px solid white;
+    background-image: url('https://th.bing.com/th/id/R.3aa6e20e7e534154ad0546b3099ffddb?rik=h2QEpoMIbMtbnA&riu=http%3a%2f%2fwww.gisandbeers.com%2fwp-content%2fuploads%2f2018%2f09%2fDescargar-Blue-Marble-de-la-NASA.jpg&ehk=nooqJ4R8yP3C59rahJpiLB8RnLrLdwkuhGGoG%2bf3vnY%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 25px #3a86ff;
+    animation: rotate 35s linear infinite; /* Adiciona a animação */
+  }
+   .terra:hover{
+    transform: scale(1.05);
+    transition: 1s;
+   }
+  .btn{
+    background-color: aliceblue;
+    width: 30vw;
+    border-radius: 20px;
+    height: 10vh;
+    cursor: pointer;
+    margin: 50px;
+    border: 2px solid black;
+    font-size: large;
+    box-shadow: 0px 5px 10px black inset;
+    justify-content: center;
+    color: black;
+    transition:background-color 0.3s ease;
+    z-index: 2;
+  }
+  .btn:hover{
+    background-color: green;
+  }
+.texto{
+  color:white;
+
+}
+.introduçao{
+  width: 70vw;
+  min-height: 9vh;
+  background: gray;
+  color: aliceblue;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 20px;
+  overflow: hidden;
+  justify-content: center;
+
+}
+.introduçao h1{
+  margin-bottom: 8px;
+  font-family: Poppins;
+}
+.intro-titulo{
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  width: 40vw;
+  margin-left: 12vw;
+}
+.intro-titulo:hover{
+  
+  transition: 1s;
+  transform: scale(1.2);
+  background-color: rgb(69, 81, 77);
+  border-radius: 20px;
+  
+}
+  
+  @keyframes rotate {
+    to{background-position: 100%;} }
+  

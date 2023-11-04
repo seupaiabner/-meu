@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>terra</title>
+    <link rel="stylesheet" href="estilo_terra.css" />
+    <style>
+      .accordion-title {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .accordion-description {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        font-size: 1rem;
+      }
+      .accordion-description2 {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s ease-in-out;
+        font-size: 1.5rem;
+        margin: 10px;
+        font-family: poppins;
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"]:checked ~ .accordion-description {
+        max-height: 12vh;
+      }
+      input[type="checkbox"]:checked ~ .accordion-description2 {
+        max-height: 12vh;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="contatos.html"
+            ><span class="icon"
+              ><ion-icon name="logo-whatsapp"></ion-icon></span
+            ><span class="text">contatos</span></a
+          >
+        </li>
+        <li>
+          <a href="força.html"><span class="icon"><ion-icon name="arrow-up-outline"></ion-icon></span><span class="text">força</span></a>
+        </li>
+        <li>
+          <a href="peso.html"
+            ><span class="icon"
+              ><ion-icon name="barbell-outline"></ion-icon></span
+            ><span class="text">peso</span></a
+          >
+        </li>
+        <li>
+          <a href="gravidade.html"
+            ><span class="icon"
+              ><ion-icon name="planet-outline"></ion-icon></span
+            ><span class="text">gravidade</span></a
+          >
+        </li>
+        <li>
+          <a href="aplicaçoes.html"
+            ><span class="icon"
+              ><ion-icon name="color-wand-outline"></ion-icon></span
+            ><span class="text"></span>aplicaçoes</a
+          >
+        </li>
+        <li>
+          <a href="FONTES.html"
+            ><span class="icon"
+              ><ion-icon name="search-circle-outline"></ion-icon></span
+            ><span class="text">fontes</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="centro">
+    <div class="titulo">
+      <h1>trabalho de fisica </h1> 
+      <hr>
+         <h2><i>força</i><i> peso</i> <i>gravidade</i></h2>
+    </div>
+    <div class="terra"></div>
+  </div>
+    <div class="introduçao">
+      <label for="desc1" class="accordion-title">
+        <h1 class="intro-titulo">introduçao</h1>
+      </label>
+      <input type="checkbox" class="accordion-checkbox" id="desc1" />
+
+      <h2 class="accordion-description2">FORÇA</h2>
+      <p class="accordion-description">
+        No âmbito da física, a força é uma ação física com que causa deformações
+        ou que altera o estado de repouso ou de movimento de um determinado
+        objeto. Há duas classificações para a grandeza vetorial força. <br />
+        • Forças de contato: aquelas que agem sobre os corpos por contato, por
+        exemplo, a força normal, de atrito, dentre outras. <br />
+        • Forças de campo: aquelas que agem sobre os corpos sem haver contato,
+        por exemplo, a força gravitacional, força magnética, dentre outras.
+      </p>
+
+      <h2 class="accordion-description2">PESO</h2>
+      <p class="accordion-description">
+        O peso de um objeto é a força gravitacional sofrida por este objeto em
+        virtude da atração gravitacional nele exercida por um outro corpo com
+        massa.
+      </p>
+
+      <h2 class="accordion-description2">GRAVIDADE</h2>
+      <p class="accordion-description">
+        A gravidade é responsável por definir o peso dos objetos e fazer com que
+        eles caiam no chão após serem soltos. Como eles se relacionam? Peso é o
+        produto da massa pela ação da gravidade, portanto, peso e massa se
+        relacionam, são grandezas proporcionais: quanto maior a força da
+        gravidade, maior será o peso
+      </p>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
